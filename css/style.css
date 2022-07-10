@@ -1,0 +1,60 @@
+:root{
+    --background-color: #232946;
+    --text-color: #b8c1ec;
+    --headers-color: #fffffe;
+    --buttom-text-color: #232946;
+    --buttom-hover-text: #eebbc3;
+    --buttom-border-color: #121629;
+    --main-content-background-colot: #b8c1ec;
+
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Merriweather', serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--headers-color);
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-logo {
+    font-size:2em;
+    text-align:center;
+}
+
+.nav-menu {
+    display: flex;
+    width: 100%;
+    justify-content:center;
+}
+
+.nav-item {
+    list-style: none;
+    padding:2em;
+}
+
+.nav-item a {
+    font-size:1.5em;
+}
+
+
+
+
