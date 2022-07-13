@@ -29,6 +29,7 @@ body {
 
 header {
     width: 100%;
+
 }
 
 .nav {
@@ -55,6 +56,28 @@ header {
     font-size:1.5em;
 }
 
+.imagem-perfil {
+    height: 300px;
+    width: 270px;
+    border-radius:100%;
+}
 
+.portifolio {
+    padding: 2em;
+}
 
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    justify-content:center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
 
