@@ -37,7 +37,34 @@ body {
 
 header {
     width: 100%;
+}
 
+.protifolio-main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.portifolio-main-item {
+    justify-content: center;
+    padding: 25px;
+}
+.portifolio-main-item-text {
+    justify-content: center;
+    padding: 45px 25px;
+}
+
+.protifolio-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.portifolio-header-item {
+    justify-content: center;
+    padding: 25px;
+}
+.portifolio-header-item-text {
+    justify-content: center;
+   
+    padding: 45px 25px;
 }
 
 
@@ -57,10 +84,6 @@ header {
     .portifolio p {
         padding-top: 0!important;
     }
-    .section{
-        width:100%!important;
-        flex-wrap:wrap;
-    }
     .center-imagem{
         justify-content:center!important;
         justify-items:center!important;
@@ -69,9 +92,7 @@ header {
         flex-wrap:wrap;
         width: 100%!important;
     }
-    .main-conteudo .portifolio {
-        width: 100% !important;
-    }
+    
     .center-imagem-portifolio{
         justify-content: center!important;
         align-items: center!important;
@@ -93,6 +114,15 @@ header {
 
         justify-content: center!important;
     }
+    .protifolio-header {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .protifolio-main {
+        display: grid;
+        grid-template-columns:1fr;
+    }
+
 }
 
 
@@ -122,12 +152,9 @@ header {
     font-size:1.5em;
 }
 
-
 .center-imagem {
     display:flex;
     display: -webkit-flex;
-    justify-content: end;
-    align-items: end;
 }
 
 .imagem-perfil {
@@ -137,26 +164,15 @@ header {
     /* border: 4px solid var(--terciaria); */
 }
 
-.portifolio {
+.portifolio-card {
     padding: 2em;
     justify-content:center;
     width:48%;
 }
 
-.portifolio p {
+.portifolio-card p {
     padding-top: 40px;
     text-justify: center;
-}
-
-.section {
-    width:80%;
-    display: flex;
-    justify-content:center;
-}
-
-section {
-    display: flex;
-    justify-content:start;
 }
 
 main{
@@ -168,12 +184,6 @@ main{
 
 main *{
     color:var(--background-color);
-}
-
-.main-conteudo {
-    display: flex;
-    justify-content: center;
-    width: 80%;
 }
 
 .imagem-portifolio {
