@@ -9,6 +9,11 @@
     --terciaria: #eebbc3;
 }
 
+header, main, footer {
+    width: 80% !important;
+    max-width: 1300 !important;
+}
+
 h1 {
     font-size: 2em;
     color:var(--headers-color);
@@ -31,8 +36,11 @@ body {
 }
 
 .container {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 header {
@@ -41,15 +49,16 @@ header {
 
 .protifolio-main {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
 }
 .portifolio-main-item {
     justify-content: center;
-    padding: 25px;
 }
 .portifolio-main-item-text {
     justify-content: center;
-    padding: 45px 25px;
+    padding: 25px;
 }
 
 .protifolio-header {
@@ -69,7 +78,13 @@ header {
 
 
 /* media queries*/
-@media (max-width: 600px)
+@media (max-width: 1100px) {
+    .protifolio-main {
+        grid-template-columns: 1fr 1fr;
+
+    }  
+}
+@media (max-width: 690px)
 {
     .nav-item a
     {
@@ -178,26 +193,22 @@ header {
 main{
     display: flex;
     width: 100%;
-    background-color: var(--terciaria);
+    /* background-color: var(--terciaria); */
     justify-content:center;
 }
 
 main *{
-    color:var(--background-color);
+    /* color:var(--background-color); */
+}
+.card {
+    width: 320px;
+    margin: 20px;
 }
 
 .imagem-portifolio {
-    max-height: 270px;
-    max-width: 240px;
+    width: 100%;
     border-radius: 15px;
     border: 4px solid var(--background-color);
-
-}
-
-.center-imagem-portifolio {
-    display:flex;
-    justify-content: end;
-    align-items: end;
 }
 
 footer {
