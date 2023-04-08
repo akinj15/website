@@ -11,7 +11,7 @@
 
 header, main, footer {
     width: 80% !important;
-    max-width: 1300 !important;
+    max-width:  1000px!important;
 }
 
 h1 {
@@ -228,4 +228,19 @@ footer {
 .footer div a {
     font-size: 1.2em;
     margin: 0 0.5em;
+} 
+
+.contate-me {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    padding: 8px 14px;
+    background-color:  var(--terciaria);
+    color:  var(--background-color);
+    background-color: #eebbc3;
+    border-radius: 4px;
 }
