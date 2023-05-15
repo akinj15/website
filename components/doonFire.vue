@@ -89,6 +89,8 @@ onMounted(() => {
 </script>
 
 <style scoped>
-
+#fireCanvas {
+  height: 320px;
+}
 </style>
 
