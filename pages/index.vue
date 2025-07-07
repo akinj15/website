@@ -7,7 +7,7 @@
             Akin Fantuci
           </h2>
           <p>
-            Programador Full-stack ( Vue.js / Nodejs )
+            Programador Full-stack ( Nodejs / Golang )
           </p>
       </div>
       <div class="mt-4">
@@ -20,7 +20,7 @@
       <DoonFire></DoonFire>
     </div>
     <div class="text-center rounded-b-lg p-4 w-full bg-fire text-neutral-900"> 
-      <p>Desenvolvedor Full-stack Vue.js e nodejs baseado no odio</p>
+      <p>Desenvolvedor Full-stack</p>
     </div>
     <div class="my-4">
       <div class=" my-4">
@@ -28,10 +28,7 @@
             Eu
           </h4>
           <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Atualmente trabalho na innovaro, uma empresa cria soluções empresariais e gestão. Sou um programador 
-            Full-stack focado em Vue.js e Node.js, ja trabalhei em varios projetos web criando desde um aplicação para gestão de academias
-            á aplicações de gestão de vendedores. E sigo fazendo alguns freelancers no meu tempo livre.
+            Sou programador Full-stack focado em Javascript, ja trabalhei em varios projetos React, Vue, Angular, Nest, Next, Nuxt, Express, Golang com experencia em desenvolvimento de sistemas ERP, CRM, Ponto de Venda(PDV) e aplicações web.  
           </p>
       </div>
     </div>
@@ -40,11 +37,16 @@
           <h4 class="inline-block text-2xl border-b-4 border-neutral-700 my-4">
             Trabalho
           </h4>
-          <p class="my-2">
+          <p class="my-3">
             <Timestamp>2022 - October to present</Timestamp> 
-              Desenvolvedor de sistemas ERP usando framework ENGINE desenvolvendo soluções empresariais, na Innovaro.
+              Desenvolvedor de sistemas ERP, Integrações, Pontos de Vendas, na Innovaro.
           </p>
-          <p class="my-2">
+          <p class="my-3">
+            <Timestamp>2023 - May to 2023 - August</Timestamp> 
+              Estagiário Voluntario internacional como desenvolvedor FrontEnd React na empresa Eternal Technology.
+              Atuando no desenvolvimento da plataforma de ensino codei.pro como Front End - Reactjs / Typescript. 
+          </p>
+          <p class="my-3">
             <Timestamp>2021 - October to 2022 - October</Timestamp> Estágio como Desenvolvedor Front-end, na HR fabrica de software.
           </p>
       </div>
@@ -67,12 +69,20 @@
           </h4>
           <p class="my-2">
             <Batch>
-              Vue.js 2/3, Quasar, Nodejs, Nest.js, SQL, MongoDb, Python, Go, Linux ... 
+              React, Next, Vue.js 2/3, Quasar, Angular, Nodejs, Nest.js, Express, SQL, MongoDb, Postgres, Firebase, Python, Go, Linux ... 
             </Batch>
           </p>
+                    <h4 class="inline-block text-2xl border-b-4 border-neutral-700 my-4">
+            Linguagens
+          </h4>
+          <p class="my-2">
+            <Batch>
+              Javascript, Typescript, Golang, Python, Lua ... 
+            </Batch>
+          </p>
+
       </div>
     </div>
-    <p>Content inside <code>default</code> layout</p>
   </div>
 </template>
 <script setup>
