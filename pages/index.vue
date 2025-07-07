@@ -12,7 +12,7 @@
       </div>
       <div class="mt-4">
         <div class="" >
-          <img class="rounded-full mx-auto border-2" src="../public/cat.jpg" alt="foto de perfil pessoal" width="90" height="100">
+          <img class="rounded-full mx-auto" src="../public/perfil.jpeg" alt="foto de perfil pessoal" width="90">
         </div>
       </div>
     </div>
@@ -29,6 +29,8 @@
           </h4>
           <p>
             Sou programador Full-stack focado em Javascript, ja trabalhei em varios projetos React, Vue, Angular, Nest, Next, Nuxt, Express, Golang com experencia em desenvolvimento de sistemas ERP, CRM, Ponto de Venda(PDV) e aplicações web.  
+            <br> 
+            Atualmente trabalho como Desenvolvedor na Innovaro, comecei na área de programação em 2021 como Estagiário, além de atuar como voluntário internacional em projetos multiculturais. 
           </p>
       </div>
     </div>

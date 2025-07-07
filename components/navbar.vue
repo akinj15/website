@@ -10,12 +10,12 @@
         </nuxt-link>
       </div>
       <div class="text-base w-4/5  p-4">
-        <nuxt-link 
+        <!-- <nuxt-link 
           class="px-4 hover:underline hover:underline-offset-4"
           to="/bio"
         >
           bio
-        </nuxt-link>
+        </nuxt-link> -->
         <nuxt-link 
           class="px-4 hover:underline hover:underline-offset-4"
           to="/about"
@@ -24,7 +24,8 @@
         </nuxt-link>
         <a 
           class="px-4 hover:underline hover:underline-offset-4"
-          href="#"
+          href="https://github.com/akinj15"
+          target="_blank"
         >
           source
         </a>
