@@ -1,5 +1,5 @@
 <template>
-  <nav class="z-10 w-full bg-neutral-900/50 p-lg fixed z-10 backdrop-blur">
+  <nav class="w-full bg-neutral-900/50 p-lg fixed z-10 backdrop-blur">
     <div class="flex itens-stretch justify-center main mx-auto">
       <div class="w-1/5 text-lg p-4">
         <nuxt-link 
@@ -9,7 +9,7 @@
           Akin
         </nuxt-link>
       </div>
-      <div class="text-base w-4/5  p-4">
+      <div class="flex  items-center text-base w-4/5  p-4">
         <!-- <nuxt-link 
           class="px-4 hover:underline hover:underline-offset-4"
           to="/bio"
@@ -28,6 +28,7 @@
           target="_blank"
         >
           source
+          <Icon name="mdi:github" class="" />
         </a>
       </div>
     </div>

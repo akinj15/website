@@ -1,20 +1,17 @@
 <template>
-  <div 
-    class="w-full flex justify-center bg-neutral-900 h-screen text-orange-50"
-  >
+  <div class="w-full flex justify-center bg-neutral-900 h-screen text-orange-50">
     <main class="w-full overflow-auto">
       <navbar />
       <div class="flex justify-center mt-10">
         <slot />
       </div>
-    </main>
+      <footerbar />
+    </main> 
   </div>
 
 </template>
 
-<script setup >
+<script setup>
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
