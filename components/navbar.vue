@@ -17,18 +17,18 @@
           bio
         </nuxt-link> -->
         <nuxt-link 
-          class="px-4 hover:underline hover:underline-offset-4"
+          class="px-4 hover:underline hover:underline-offset-4 text-orange-100"
           to="/about"
         >
           about
         </nuxt-link>
         <a 
-          class="px-4 hover:underline hover:underline-offset-4"
+          class="flex items-center gap-1 px-4 hover:underline hover:underline-offset-4 text-orange-100"
           href="https://github.com/akinj15"
           target="_blank"
         >
           source
-          <Icon name="mdi:github" class="" />
+          <Icon name="mdi:github" class="" size="24px"/>
         </a>
       </div>
     </div>
