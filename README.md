@@ -1,6 +1,9 @@
-# Nuxt 3 Minimal Starter
+# Site Portfolio
+![merda](https://i.imgur.com/Dk1NL5x.gif)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+Com este website, pretendo compartilhar minha história e experiências, além de praticar um pouco de NuxtJs.  
+
 
 ## Setup
 
@@ -39,4 +42,3 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
