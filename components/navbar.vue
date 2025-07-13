@@ -16,15 +16,15 @@
         >
           bio
         </nuxt-link> -->
-        <nuxt-link 
+        <!-- <nuxt-link 
           class="px-4 hover:underline hover:underline-offset-4 text-orange-100"
           to="/about"
         >
           about
-        </nuxt-link>
+        </nuxt-link> -->
         <a 
           class="flex items-center gap-1 px-4 hover:underline hover:underline-offset-4 text-orange-100"
-          href="https://github.com/akinj15"
+          href="https://github.com/akinj15/website"
           target="_blank"
         >
           source

@@ -1,7 +1,7 @@
 <template>
-  <footer class="py-6">
-    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 w-1/3">
-      <p class="text-sm text-center md:text-left">&copy; {{ year }} Akin Fantuci. Todos os direitos reservados.</p>
+  <footer class="w-full bg-neutral-900/50 p-lg fixed z-10 backdrop-blur bottom-0 py-1">
+    <div class="container mx-auto px-4 flex flex-row justify-between items-center gap-4 md:w-1/3">
+      <p class="text-sm text-center xs:text-left">&copy; Akin Fantuci. Todos os direitos reservados.</p>
 
       <div class="flex space-x-4">
         <a href="https://github.com/akinj15" target="_blank">

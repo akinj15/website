@@ -1,12 +1,11 @@
 <template>
-  <div class="w-full max-w-xl p-4">
-
+  <div class="w-full max-w-xl p-4 pb-16">
     <div class="md:flex md:justify-between ">
       <div class=" mt-4">
-        <h2 class="text-4xl">
+        <h2 class="text-4xl md:text-left text-center">
           Akin Fantuci
         </h2>
-        <p>
+        <p class="md:text-left text-center">
           Programador Full-stack
         </p>
       </div>
@@ -19,8 +18,8 @@
     <div class="overflow-hidden">
       <DoonFire></DoonFire>
     </div>
-    <div class="text-center rounded-b-lg p-4 w-full bg-fire text-neutral-900">
-      <p>Desenvolvedor Full-stack</p>
+    <div class="text-center rounded-b-lg p-2 w-full bg-fire text-neutral-900">
+      <!-- <p>Desenvolvedor Full-stack</p> -->
     </div>
     <div class="my-4">
       <div class=" my-4">
